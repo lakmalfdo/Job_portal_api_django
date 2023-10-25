@@ -100,12 +100,9 @@ Now, your project is configured to use a MySQL database, and the necessary table
 You have successfully set up your Django job portal API project, and now it's time to deploy and test it.
 
 ### Local Deployment:
-1. Start your Django development server:
+Start your Django development server:
 <pre>python manage.py runserver</pre>
-Your Django project will be available locally at http://127.0.0.1:8000/.
 
-2. To test your RESTful APIs, you can use tools like Postman or curl. Here's how you can make a sample request with curl:
-
-Now, your Django job portal API is deployed locally for development. You can access it on your machine and test the RESTful APIs using Postman or curl. Enjoy building and using your job portal API!
+Now, your Django job portal API is deployed locally for development. You can access it on your machine and test the RESTful APIs using Postman or curl.
 
 I've built a professional DJango RESTful API for an online job portal. Feel free to extend this project by adding features such as user authentication, real-time notifications, and more to make it even more impressive. Happy coding!
