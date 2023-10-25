@@ -63,7 +63,7 @@ Now you have Python, Django, and the necessary packages installed in your virtua
 In your Django app, you can define models in the models.py file. Models define the structure of your database tables.
 
 ### Creating Views
-In Django, views define the logic for handling HTTP requests and returning responses. You can create views for your API in the views.py file.
+In Django, views define the logic for handling HTTP requests and returning responses. Views within the views.py file handle CRUD operations implicitly, eliminating the necessity of writing specific CRUD functions.
 
 ### Adding Serializers
 Serializers allow you to convert complex data types, such as Django model instances, into native Python data types. You can add serializers in the serializers.py file.
